@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Re-Estar Hotel Survey Form</h1>
+        <h2 id="subheading"> Thank You For Taking The Time To Help Us Improve The Platform</h2>
+    </div>
+    <form action="details_entry.php" method="post">
+
+        <div id="content1">
+            <Label>Name</Label> <br><br>
+            <input type="name" name="name" class="box" placeholder="Enter Your Name"> <br> <br>
+            <Label>Email</Label> <br><br>
+            <input type="email" name="email" class="box" placeholder="Enter Your email"> <br> <br>
+            <Label>Age (Optional)</Label> <br><br>
+            <input type="age" name="age" class="box" placeholder="Enter Your Age"> <br> <br>
+            <Label>Do you come under which role?</Label><br><br>
+        
+        <div id="option1">
+            <select name="role">
+                <option name="Select Your Role" value="">Select Your Role</option>
+                <option value="Hotel Guest">Hotel Guest</option>
+                <option value="Hotel Employee">Hotel Employee</option>
+            </select>
+        </div>
+        
+        <br>
+        <label id="head1">How woul you rate the cleanliness of the Hotel?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspExcellent  <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspGood <br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspAverage <br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspPoor <br>
+
+        <div class="rating" id="rating1">
+            <input type="radio" name="rating1" id="star5" value="5">
+            <label for="star5"></label>
+            <input type="radio" name="rating1" id="star4" value="4">
+            <label for="star4"></label>
+            <input type="radio" name="rating1" id="star3" value="3">
+            <label for="star3"></label>
+            <input type="radio" name="rating1" id="star2" value="2">
+            <label for="star2"></label>
+            <input type="radio" name="rating1" id="star1" value="1">
+            <label for="star1"></label>
+        </div>
+        <p id="ratingText1"></p>
+
+
+        <br>
+        <label id="head1">Did the hotel staff provide friendly and helpful service?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspYes, Always <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspMost of the time<br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspSometimes <br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspRarely or Never <br>
+
+        <div class="rating" id="rating2">
+            <input type="radio" name="rating2" id="star10" value="5">
+            <label for="star10"></label>
+            <input type="radio" name="rating2" id="star9" value="4">
+            <label for="star9"></label>
+            <input type="radio" name="rating2" id="star8" value="3">
+            <label for="star8"></label>
+            <input type="radio" name="rating2" id="star7" value="2">
+            <label for="star7"></label>
+            <input type="radio" name="rating2" id="star6" value="1">
+            <label for="star6"></label>
+        </div>
+        <p id="ratingText2"></p>
+
+       
+        <br>
+        <label id="head1">Were the facilities (e.g., gym, pool, restaurant) satisfactory?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspVery satisfied <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspsatisfied <br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspNeutral<br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspDissatisfied <br>
+
+        <div class="rating" id="rating3">
+            <input type="radio" name="rating3" id="star15" value="5">
+            <label for="star15"></label>
+            <input type="radio" name="rating3" id="star14" value="4">
+            <label for="star14"></label>
+            <input type="radio" name="rating3" id="star13" value="3">
+            <label for="star13"></label>
+            <input type="radio" name="rating3" id="star12" value="2">
+            <label for="star12"></label>
+            <input type="radio" name="rating3" id="star11" value="1">
+            <label for="star11"></label>
+        </div>
+        <p id="ratingText3"></p>
+
+       
+
+        <br>
+        <label id="head1">How comfortable was your stay overall?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspVery comfortable <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspComfortable <br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspNeutral <br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspUncomfotable <br>
+
+        <div class="rating" id="rating4">
+            <input type="radio" name="rating4" id="star20" value="5">
+            <label for="star20"></label>
+            <input type="radio" name="rating4" id="star19" value="4">
+            <label for="star19"></label>
+            <input type="radio" name="rating4" id="star18" value="3">
+            <label for="star18"></label>
+            <input type="radio" name="rating4" id="star17" value="2">
+            <label for="star17"></label>
+            <input type="radio" name="rating4" id="star16" value="1">
+            <label for="star16"></label>
+        </div>
+        <p id="ratingText4"></p>
+
+        
+
+        <br>
+        <label id="head1">Did you find the room amenities sufficient for your needs?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspYes,completely <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspMostly <br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspPartially <br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspNot at all <br>
+
+        <div class="rating" id="rating5">
+            <input type="radio" name="rating5" id="star25" value="5">
+            <label for="star25"></label>
+            <input type="radio" name="rating5" id="star24" value="4">
+            <label for="star24"></label>
+            <input type="radio" name="rating5" id="star23" value="3">
+            <label for="star23"></label>
+            <input type="radio" name="rating5" id="star22" value="2">
+            <label for="star22"></label>
+            <input type="radio" name="rating5" id="star21" value="1">
+            <label for="star21"></label>
+        </div>
+        <p id="ratingText5"></p>
+
+
+       
+        <br>
+        <label id="head1">How would you rate the value for money of your stay?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspExcellent value <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspGood value<br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspAverage Value <br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspPoor value <br>
+
+        <div class="rating" id="rating6">
+            <input type="radio" name="rating6" id="star30" value="5">
+            <label for="star30"></label>
+            <input type="radio" name="rating6" id="star29" value="4">
+            <label for="star29"></label>
+            <input type="radio" name="rating6" id="star28" value="3">
+            <label for="star28"></label>
+            <input type="radio" name="rating6" id="star27" value="2">
+            <label for="star27"></label>
+            <input type="radio" name="rating6" id="star26" value="1">
+            <label for="star26"></label>
+        </div>
+        <p id="ratingText6"></p>
+
+       
+
+        <br>
+        <label id="head1">How likely are you to recommend this hotel to others?</label> <br><br>
+        <input type="radio" name="radio" class="larger" value="Ex">&nbsp&nbsp&nbspVery Likely <br><br>
+        <input type="radio" name="radio" class="larger" value="Go">&nbsp&nbsp&nbspLikely <br> <br>
+        <input type="radio" name="radio" class="larger" value="Avg">&nbsp&nbsp&nbspUnlikely <br><br>
+        <input type="radio" name="radio" class="larger" value="Po">&nbsp&nbsp&nbspVery unlikely <br>
+
+        <div class="rating" id="rating7">
+            <input type="radio" name="rating7" id="star35" value="5">
+            <label for="star35"></label>
+            <input type="radio" name="rating7" id="star34" value="4">
+            <label for="star34"></label>
+            <input type="radio" name="rating7" id="star33" value="3">
+            <label for="star33"></label>
+            <input type="radio" name="rating7" id="star32" value="2">
+            <label for="star32"></label>
+            <input type="radio" name="rating7" id="star21" value="1">
+            <label for="star31"></label>
+        </div>
+        <p id="ratingText7"></p>
+
+      
+        <br>
+        <label>Any additional comments or suggestions for improvement?</label> <br><br>
+        <textarea name="suggestion" id="suggestion" cols="60" rows="3"></textarea> <br><br>
+
+        
+        <input type="submit" name="save" value="Save">
+
+
+        
+
+
+
+
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>
